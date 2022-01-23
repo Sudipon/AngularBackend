@@ -1,6 +1,6 @@
 const UserModel = require("../models/userModel");
 const mongoose = require('mongoose');
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 const Encode_Key = `${process.env.SECRET_KEY}`;
